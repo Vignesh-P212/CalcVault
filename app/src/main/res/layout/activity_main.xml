@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="10dp">
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/tvInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:padding="20dp"
+        android:text="0" />
+
+    <!-- Button Layout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:paddingTop="10dp"
+        android:rowCount="5"
+        android:layout_marginTop="10dp">
+
+        <!-- Row 1 -->
+        <Button android:text="AC" android:onClick="onClearClick" style="@style/GrayButton"/>
+        <Button android:text="±" android:onClick="onToggleSignClick" style="@style/GrayButton"/>
+        <Button android:text="%" android:onClick="onPercentageClick" style="@style/GrayButton"/>
+        <Button android:text="÷" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
+
+        <!-- Row 2 -->
+        <Button android:text="7" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="8" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="9" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="×" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
+
+        <!-- Row 3 -->
+        <Button android:text="4" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="5" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="6" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="-" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
+
+        <!-- Row 4 -->
+        <Button android:text="1" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="2" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="3" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="+" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
+
+        <!-- Row 5 -->
+        <Button android:text="0" android:onClick="onNumberClick" style="@style/LargeNumberButton"
+            android:layout_columnSpan="2"/>
+        <Button android:text="." android:onClick="onDecimalClick" style="@style/NumberButton"/>
+        <Button android:text="=" android:onClick="onEqualClick" style="@style/OrangeButton"/>
+
+    </GridLayout>
+</LinearLayout>
