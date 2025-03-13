@@ -27,7 +27,15 @@
         android:layout_marginTop="10dp">
 
         <!-- Row 1 -->
+<<<<<<< HEAD
         <Button android:text="A" android:onClick="onClearClick" style="@style/GrayButton"/>
+=======
+
+        <Button android:text="AC" android:onClick="onClearClick" style="@style/GrayButton"/>
+
+        <Button android:text="A" android:onClick="onClearClick" style="@style/GrayButton"/>
+
+>>>>>>> 03e63cc76df0f5ae395f147b527a08b8ee8dc503
         <Button android:text="±" android:onClick="onToggleSignClick" style="@style/GrayButton"/>
         <Button android:text="%" android:onClick="onPercentageClick" style="@style/GrayButton"/>
         <Button android:text="÷" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
@@ -45,7 +53,11 @@
         <Button android:text="-" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
 
         <!-- Row 4 -->
+<<<<<<< HEAD
         <Button android:text="1" android:onClick="onNumberClick" style="@style/NumberButton"/>
+=======
+        <Button android:text="10" android:onClick="onNumberClick" style="@style/NumberButton"/>
+>>>>>>> 03e63cc76df0f5ae395f147b527a08b8ee8dc503
         <Button android:text="2" android:onClick="onNumberClick" style="@style/NumberButton"/>
         <Button android:text="3" android:onClick="onNumberClick" style="@style/NumberButton"/>
         <Button android:text="+" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
@@ -54,7 +66,7 @@
         <Button android:text="0" android:onClick="onNumberClick" style="@style/LargeNumberButton"
             android:layout_columnSpan="2"/>
         <Button android:text="." android:onClick="onDecimalClick" style="@style/NumberButton"/>
-        <Button android:text="=" android:onClick="onEqualClick" style="@style/OrangeButton"/>
+        <Button android:text="==" android:onClick="onEqualClick" style="@style/OrangeButton"/>
 
     </GridLayout>
 </LinearLayout>
