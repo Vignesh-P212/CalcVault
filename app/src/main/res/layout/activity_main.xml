@@ -27,11 +27,11 @@
         android:layout_marginTop="10dp">
 
         <!-- Row 1 -->
-<<<<<<< HEAD
+
         <Button android:text="AC" android:onClick="onClearClick" style="@style/GrayButton"/>
-=======
+
         <Button android:text="A" android:onClick="onClearClick" style="@style/GrayButton"/>
->>>>>>> 8592213 (Stage 1)
+
         <Button android:text="±" android:onClick="onToggleSignClick" style="@style/GrayButton"/>
         <Button android:text="%" android:onClick="onPercentageClick" style="@style/GrayButton"/>
         <Button android:text="÷" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
@@ -49,7 +49,7 @@
         <Button android:text="-" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
 
         <!-- Row 4 -->
-        <Button android:text="1" android:onClick="onNumberClick" style="@style/NumberButton"/>
+        <Button android:text="10" android:onClick="onNumberClick" style="@style/NumberButton"/>
         <Button android:text="2" android:onClick="onNumberClick" style="@style/NumberButton"/>
         <Button android:text="3" android:onClick="onNumberClick" style="@style/NumberButton"/>
         <Button android:text="+" android:onClick="onOperatorClick" style="@style/OrangeButton"/>
